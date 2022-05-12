@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:id="@+id/layoutLin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shahzod"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:textColor="#D81B16"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/postTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Bu yerda yozilgan barcha malumotlar post uchun yozilgan malumotlar hisoblanadi!"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:textColor="#1d1d1d"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
