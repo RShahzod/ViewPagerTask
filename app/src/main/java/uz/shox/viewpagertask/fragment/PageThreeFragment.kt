@@ -103,6 +103,7 @@ class PageThreeFragment : Fragment() {
                 "33. Android operatsion tizimida ishlaydigna qurilmalardan ayollarga nisbatan ko'proq erkaklar foydalanishadi."))
 
         val pagerAdapter = PagerThreeAdapter(requireContext(), postData)
+        //a
         recyclerView.adapter = pagerAdapter
 
 
